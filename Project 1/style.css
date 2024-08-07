@@ -166,7 +166,7 @@ section .girl {
 
 .set img {
   position: absolute;
-  width: 20px;
+  width: 40px;
   height: auto;
   animation: fall 10s infinite;
   opacity: 0;
