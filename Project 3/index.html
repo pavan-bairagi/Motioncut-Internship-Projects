@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fav.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="icons8-sign-language-p-50.png" alt="Company Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product">
+                <input type="checkbox" id="quick-view-1" class="quick-view-toggle">
+                <label for="quick-view-1" class="product-image">
+                    <img src="image1.jpeg" alt="Product 1">
+                </label>
+                <div class="product-details">
+                    <h1>Product 1</h1>
+                    <p class="category">Category: Electronics</p>
+                    <div class="ratings">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>(123 reviews)</span>
+                    </div>
+                    <p class="description">This is a brief description of Product 1, highlighting its main features.</p>
+                    <p class="price">₹799.99</p>
+                    <p class="stock-status">In Stock</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="quick-view-modal">
+                    <div class="modal-content">
+                        <label for="quick-view-1" class="close-modal">&times;</label>
+                        <h2>Product 1 Quick View</h2>
+                        <p>Here is a detailed description of Product 1.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <input type="checkbox" id="quick-view-2" class="quick-view-toggle">
+                <label for="quick-view-2" class="product-image">
+                    <img src="image2.jpg" alt="Product 2">
+                </label>
+                <div class="product-details">
+                    <h1>Product 2</h1>
+                    <p class="category">Category: Apparel</p>
+                    <div class="ratings">
+                        <span>⭐⭐⭐⭐</span>
+                        <span>(89 reviews)</span>
+                    </div>
+                    <p class="description">This is a brief description of Product 2, perfect for daily wear.</p>
+                    <p class="price">₹7000.99</p>
+                    <p class="stock-status">Only 5 left in stock</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="quick-view-modal">
+                    <div class="modal-content">
+                        <label for="quick-view-2" class="close-modal">&times;</label>
+                        <h2>Product 2 Quick View</h2>
+                        <p>Here is a detailed description of Product 2.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <input type="checkbox" id="quick-view-3" class="quick-view-toggle">
+                <label for="quick-view-3" class="product-image">
+                    <img src="image3.jpeg" alt="Product 3">
+                </label>
+                <div class="product-details">
+                    <h1>Product 3</h1>
+                    <p class="category">Category: Home & Garden</p>
+                    <div class="ratings">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <span>(45 reviews)</span>
+                    </div>
+                    <p class="description">This is a brief description of Product 3, ideal for your home.</p>
+                    <p class="price">₹2999</p>
+                    <p class="stock-status out-of-stock">Out of Stock</p>
+                    <button class="add-to-cart" disabled>Add to Cart</button>
+                </div>
+
+                <div class="quick-view-modal">
+                    <div class="modal-content">
+                        <label for="quick-view-3" class="close-modal">&times;</label>
+                        <h2>Product 3 Quick View</h2>
+                        <p>Here is a detailed description of Product 3.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-commerce Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
